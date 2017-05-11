@@ -2149,6 +2149,14 @@ blockquote {
 	transition: opacity 100ms ease;
 }
 
+.hero-section.portfolio-hero {
+    margin-bottom: 30px;
+    padding-top: 120px;
+    padding-bottom: 0px;
+    background-color: #333;
+    background-image: none;
+}
+
 .nav {
 	position: absolute;
 	left: 0px;
