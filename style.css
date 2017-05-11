@@ -2150,11 +2150,11 @@ blockquote {
 }
 
 .hero-section.portfolio-hero {
-    margin-bottom: 30px;
-    padding-top: 120px;
-    padding-bottom: 0px;
-    background-color: #333;
-    background-image: none;
+	margin-bottom: 30px;
+	padding-top: 120px;
+	padding-bottom: 0px;
+	background-color: #333;
+	background-image: none;
 }
 
 .nav {
@@ -2281,7 +2281,6 @@ blockquote {
 	background-image: linear-gradient(180deg, #000, #fff);
 }
 
-
 .tile-image {
 	position: absolute;
 	left: 0px;
@@ -2297,7 +2296,6 @@ blockquote {
 	transition: transform 1000ms ease;
 	transition: transform 1000ms ease, -webkit-transform 1000ms ease;
 }
-
 
 .tile-image:hover {
 	-webkit-transform: scale(1.03);
@@ -3315,6 +3313,7 @@ blockquote {
 	margin-bottom: 50px;
 }
 
+
 /* .heading-5 {
 	left: 0px;
 	right: -47px;
@@ -3327,13 +3326,13 @@ blockquote {
 */
 
 .heading-6 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: BioRhyme, sans-serif;
-    color: #333;
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: BioRhyme, sans-serif;
+	color: #333;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 html.w-mod-js *[data-ix="tile-1"] {
@@ -3660,10 +3659,26 @@ html.w-mod-js *[data-ix="fadeinbannerbg"] {
 	}
 }
 
-@media (max-width: 767px) {		    
-#shoppingcart1{	position:absolute; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:auto;}
+@media (max-width: 767px) {
+	#shoppingcart1 {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		bottom: 0px;
+		right: 0px;
+		width: 100%;
+		height: 100%;
+		border: none;
+		margin: 0;
+		padding: 0;
+		overflow: auto;
+	}
 }
 
-@media (min-width: 767px) {		    
-#shoppingcart1{	 width:100%; height:800px;}
+@media (min-width: 767px) {
+	#shoppingcart1 {
+		width: 100%;
+		height: 800px;
+		border: none;
+	}
 }
