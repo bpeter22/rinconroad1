@@ -2150,7 +2150,7 @@ blockquote {
 }
 
 .hero-section.portfolio-hero {
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 	padding-top: 120px;
 	padding-bottom: 0px;
 	background-color: #333;
@@ -3672,6 +3672,7 @@ html.w-mod-js *[data-ix="fadeinbannerbg"] {
 		margin: 0;
 		padding: 0;
 		overflow: auto;
+		z-index: 100000000;
 	}
 }
 
