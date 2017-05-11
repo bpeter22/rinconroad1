@@ -3962,3 +3962,8 @@ html.w-mod-js *[data-ix="fadeinbannerbg"] {
 .btn.cta:hover {
     color: #87bbc7
 }
+
+.w-container {
+    padding-left: 30px;
+    padding-right: 35px;
+}
