@@ -2153,7 +2153,7 @@ blockquote {
 	/* margin-bottom: 30px; */
 	padding-top: 100px;
 	padding-bottom: 0px;
-	background-color: #fff;
+	background-color: #0058A5;
 	background-image: none;
 }
 
@@ -2182,10 +2182,6 @@ blockquote {
 	font-weight: 300;
 }
 
-.hero-section.portfolio-hero.logo-text {
-		color: #333;
-}
-
 .logo-text.footer-logo {
 	margin-top: 3px;
 	margin-bottom: 20px;
@@ -2201,10 +2197,6 @@ blockquote {
 	font-size: 12px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-}
-
-.hero-section.portfolio-hero.nav-link {
-	color: #333;
 }
 
 .nav-link:hover {
