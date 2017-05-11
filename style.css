@@ -2887,7 +2887,7 @@ blockquote {
 }
 
 .button-2 {
-position: relative;
+	position: relative;
 	left: 0px;
 	right: 0px;
 	bottom: -275px;
@@ -2914,12 +2914,12 @@ position: relative;
 	align-items: center;
 	border: 3px none #000;
 	border-radius: 8px;
-	background-color: #0058a5;
-	box-shadow: 11px 11px 32px 0 rgba(60, 74, 84, .3);
+	background-color: #FFBC42;
+	box-shadow: 11px 11px 32px 0 rgba(60, 74, 84, .8);
 	-webkit-transition: all 400ms ease;
 	transition: all 400ms ease;
 	font-family: 'Work Sans', sans-serif;
-	color: #fff;
+	color: #996633;
 	font-size: 18px;
 	font-weight: 400;
 	text-align: center;
