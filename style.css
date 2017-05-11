@@ -2273,6 +2273,7 @@ blockquote {
 	background-image: linear-gradient(180deg, #000, #fff);
 }
 
+
 .tile-image {
 	position: absolute;
 	left: 0px;
@@ -2288,6 +2289,7 @@ blockquote {
 	transition: transform 1000ms ease;
 	transition: transform 1000ms ease, -webkit-transform 1000ms ease;
 }
+
 
 .tile-image:hover {
 	-webkit-transform: scale(1.03);
@@ -2527,8 +2529,8 @@ blockquote {
 	right: 0px;
 	bottom: 0px;
 	background-color: rgba(0, 0, 0, .6);
-	background-image: -webkit-linear-gradient(270deg, transparent, #fff), url("http://uploads.webflow.com/59127254dd19b71773242202/5912727fdd19b71773242338_NewPano.png");
-	background-image: linear-gradient(180deg, transparent, #fff), url("http://uploads.webflow.com/59127254dd19b71773242202/5912727fdd19b71773242338_NewPano.png");
+	background-image: -webkit-linear-gradient(270deg, transparent, #fff), url("https://bpeter22.github.io/rinconroad1/assets/BigSurHeroBG.png");
+	background-image: linear-gradient(180deg, transparent, #fff), url("https://bpeter22.github.io/rinconroad1/assets/BigSurHeroBG.png");
 	background-position: 0px 0px, 50% 50%;
 	background-size: auto, cover;
 	opacity: 1;
@@ -3172,13 +3174,13 @@ blockquote {
 }
 
 .slide-2 {
-	background-image: url("http://uploads.webflow.com/59127254dd19b71773242202/5912a2bee3792554a1fb3563_15361c94599d4a06b79c04a8defcbe7e_12_1280.jpg");
+	background-image: url("https://bpeter22.github.io/rinconroad1/assets/Slide1.jpeg");
 	background-position: 50% 100%;
 	background-size: cover;
 }
 
 .slide-3 {
-	background-image: url("http://uploads.webflow.com/59127254dd19b71773242202/5913941866f30c7cbd7398a7_StockPhoto1.jpg");
+	background-image: url("https://bpeter22.github.io/rinconroad1/assets/Slide2.jpeg");
 	background-position: 50% 50%;
 	background-size: cover;
 }
