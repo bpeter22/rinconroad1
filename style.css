@@ -2890,7 +2890,7 @@ blockquote {
 	position: relative;
 	left: 0px;
 	right: 0px;
-	bottom: -275px;
+	bottom: -300px;
 	z-index: 3;
 	display: block;
 	width: 200px;
@@ -2914,12 +2914,12 @@ blockquote {
 	align-items: center;
 	border: 3px none #000;
 	border-radius: 8px;
-	background-color: #FFBC42;
+	background-color: #FFF;
 	box-shadow: 11px 11px 32px 0 rgba(60, 74, 84, .8);
 	-webkit-transition: all 400ms ease;
 	transition: all 400ms ease;
 	font-family: 'Work Sans', sans-serif;
-	color: #996633;
+	color: #0058A5;
 	font-size: 18px;
 	font-weight: 400;
 	text-align: center;
