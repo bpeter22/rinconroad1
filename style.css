@@ -3564,7 +3564,6 @@ html.w-mod-js *[data-ix="fadeinbannerbg"] {
 	h1 {
 		font-size: 24px;
 		line-height: 32px;
-		text-shadow: 1px 1px 6px rgba(0, 0, 0, .38);
 	}
 	.hero-section.blog-hero {
 		padding-top: 80px;
