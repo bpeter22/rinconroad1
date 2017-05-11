@@ -3315,7 +3315,7 @@ blockquote {
 	margin-bottom: 50px;
 }
 
-.heading-5 {
+/* .heading-5 {
 	left: 0px;
 	right: -47px;
 	bottom: 0px;
@@ -3323,6 +3323,17 @@ blockquote {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
+}
+*/
+
+.heading-6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: BioRhyme, sans-serif;
+    color: #333;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 html.w-mod-js *[data-ix="tile-1"] {
