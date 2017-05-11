@@ -2887,7 +2887,7 @@ blockquote {
 }
 
 .button-2 {
-	position: static;
+position: relative;
 	left: 0px;
 	right: 0px;
 	bottom: -275px;
