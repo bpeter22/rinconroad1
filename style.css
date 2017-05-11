@@ -3660,3 +3660,11 @@ html.w-mod-js *[data-ix="fadeinbannerbg"] {
 		text-shadow: none;
 	}
 }
+
+@media (max-width: 767px) {		    
+#shoppingcart1{	position:absolute; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:auto;}
+}
+
+@media (min-width: 767px) {		    
+#shoppingcart1{	 width:100%; height:800px;}
+}
