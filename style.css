@@ -3183,23 +3183,48 @@ blockquote {
 }
 
 .slide-2 {
-	background-image: url("https://bpeter22.github.io/rinconroad1/assets/Slide1.jpeg");
+	background-image: url("https://bpeter22.github.io/rinconroad1/assets/slider/Slider1.jpeg");
 	background-position: 50% 100%;
 	background-size: cover;
 }
 
 .slide-3 {
-	background-image: url("https://bpeter22.github.io/rinconroad1/assets/Slide2.jpeg");
+	background-image: url("https://bpeter22.github.io/rinconroad1/assets/slider/Slider2.jpeg");
 	background-position: 50% 50%;
 	background-size: cover;
 }
+
+.slide-4 {
+	background-image: url("https://bpeter22.github.io/rinconroad1/assets/slider/Slider3.jpeg");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.slide-5 {
+	background-image: url("https://bpeter22.github.io/rinconroad1/assets/slider/Slider4.jpeg");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.slide-6 {
+	background-image: url("https://bpeter22.github.io/rinconroad1/assets/slider/Slider5.jpeg");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.slide-7 {
+	background-image: url("https://bpeter22.github.io/rinconroad1/assets/slider/Slider6.jpeg");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
 
 .column-8 {
 	color: #ccc;
 }
 
 .slider-2 {
-	height: 400px;
+	height: 500px;
 }
 
 .button-4 {
