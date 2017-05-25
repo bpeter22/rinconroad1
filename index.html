@@ -151,7 +151,7 @@
 						<li><a href="https://facebook.com/rinconroad" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="https://twitter.com/rinconroad" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="https://instagram.com/rinconroadphoto" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-comments"><span class="label">Live Chat</span></a></li>
+						<li><a href="#" class="icon fa-comments drift-open-chat"><span class="label">Live Chat</span></a></li>
 
 					</ul>
 					<ul class="copyright">
@@ -192,6 +192,51 @@
 }();
 drift.SNIPPET_VERSION = '0.3.1';
 drift.load('mrmgekwk3g59');
+
+(function() {
+	/* Add this class to any elements you want to use to open Drift.
+	 *
+	 * Examples:
+	 * - <a class="drift-open-chat">Questions? We're here to help!</a>
+	 * - <button class="drift-open-chat">Chat now!</button>
+	 *
+	 * You can have any additional classes on those elements that you
+	 * would ilke.
+	 */
+	var DRIFT_CHAT_SELECTOR = '.drift-open-chat'
+	/* http://youmightnotneedjquery.com/#ready */
+	function ready(fn) {
+		if (document.readyState != 'loading') {
+			fn();
+		} else if (document.addEventListener) {
+			document.addEventListener('DOMContentLoaded', fn);
+		} else {
+			document.attachEvent('onreadystatechange', function() {
+				if (document.readyState != 'loading')
+					fn();
+			});
+		}
+	}
+	/* http://youmightnotneedjquery.com/#each */
+	function forEachElement(selector, fn) {
+		var elements = document.querySelectorAll(selector);
+		for (var i = 0; i < elements.length; i++)
+			fn(elements[i], i);
+	}
+	function openSidebar(driftApi, event) {
+		event.preventDefault();
+		driftApi.sidebar.open();
+		return false;
+	}
+	ready(function() {
+		drift.on('ready', function(api) {
+			var handleClick = openSidebar.bind(this, api)
+			forEachElement(DRIFT_CHAT_SELECTOR, function(el) {
+				el.addEventListener('click', handleClick);
+			});
+		});
+	});
+})();
 </script>
 <!-- End of Async Drift Code -->
 
