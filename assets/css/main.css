@@ -2342,22 +2342,22 @@
 			}
 
 			.icon.major.accent2 {
-				background: #e89980;
+				background: #d81159;
 				color: #ffffff;
 			}
 
 			.icon.major.accent3 {
-				background: #7fcdb8;
+				background: #ffbc42;
 				color: #ffffff;
 			}
 
 			.icon.major.accent4 {
-				background: #90b0ba;
+				background: #0EAF59;
 				color: #ffffff;
 			}
 
 			.icon.major.accent5 {
-				background: #e5cb95;
+				background: #0489e8;
 				color: #ffffff;
 			}
 
@@ -3724,7 +3724,7 @@
 					border-radius: 0;
 					margin-left: -1em;
 					width: calc(100% + 2em);
-				
+
 				}
 
 					.box .image.featured img {
