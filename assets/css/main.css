@@ -2823,11 +2823,13 @@
 
 			#header h1 a {
 				color: #fff;
+				font-weight: 300;
 				border: 0;
 			}
 
 			#header h1 a strong {
 			font-weight: 400;
+			color: #fff;
 }
 
 		#header nav {
