@@ -2829,7 +2829,7 @@
 
 			#header h1 a strong {
 			font-weight: 400;
-			color: #fff;
+			color: #fff !important;
 }
 
 		#header nav {
