@@ -3399,6 +3399,7 @@
 					position: absolute;
 					top: 0;
 					/* width: 100%; */
+					width: 3.5em;
 					border: 0;
 					outline: 0;
 					z-index: 1000000001;
