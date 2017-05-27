@@ -11,9 +11,9 @@
 		</title>
 		<meta charset="utf-8">
 		<meta content="width=device-width, initial-scale=1" name="viewport">
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link href="https://www.rinconroad.com/assets/css/main.css" rel="stylesheet">
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<meta content="Contact Rincon Road Photography" name="title">
+		<meta content="Rincon Road's official contact form. We sell original Southwestern nature, landscape, and wildlife photography prints for your home." name="description"><!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link href="https://www.rinconroad.com/assets/css/main.css" rel="stylesheet"><!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
 		<div id="page-wrapper">
@@ -60,75 +60,78 @@
 								<li>
 									<a href="https://www.rinconroad.com/client-portal">Client Portal</a>
 								</li>
-
-
 							</ul>
 						</li>
 					</ul>
 				</nav>
 			</header>
-
 			<!-- Main -->
-				<section id="main" class="container 75%">
-					<header>
-						<h2>Contact Us</h2>
-						<p>How can we assist you today?</p>
-					</header>
-					<div class="box">
-						<form method="POST" action="https://formspree.io/%72%72%63%6f%6e%74%61%63%74%66%6f%72%6d%40%72%69%6e%63%6f%6e%72%6f%61%64%2e%63%6f%6d">
-							<div class="row uniform 50%">
-								<div class="6u 12u(mobilep)">
-									<input type="text" name="name" id="name" value="" placeholder="Full Name" required />
-								</div>
-								<div class="6u 12u(mobilep)">
-									<input type="email" name="email" id="email" value="" placeholder="Email Address" required />
-								</div>
-							</div>
-							<div class="row uniform 50%">
-								<div class="12u">
-									<input type="text" name="_subject" id="subject" value="" placeholder="Subject" required />
-								</div>
-							</div>
-							<div class="row uniform 50%">
-								<div class="12u">
-									<textarea name="message" id="message" placeholder="Message" rows="6" required></textarea>
-								</div>
-							</div>
-							<input type="text" name="_gotcha" style="display:none" />
-							<input type="hidden" name="_next" value="https://www.rinconroad.com/contact-us/thank-you/" />
-							<div class="row uniform">
-								<div class="12u">
-									<ul class="actions align-center">
-										<li><input type="submit" class="button special" value="Send Message" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</div>
-				</section>
 
+			<section class="container 75%" id="main">
+				<header>
+					<h2>
+						Contact Us
+					</h2>
+
+					<p>
+						How can we assist you today?
+					</p>
+				</header>
+
+				<div class="box">
+					<form action="https://formspree.io/%72%72%63%6f%6e%74%61%63%74%66%6f%72%6d%40%72%69%6e%63%6f%6e%72%6f%61%64%2e%63%6f%6d" method="post">
+						<div class="row uniform 50%">
+							<div class="6u 12u(mobilep)">
+								<input id="name" name="name" placeholder="Full Name" required="" type="text" value="">
+							</div>
+
+							<div class="6u 12u(mobilep)">
+								<input id="email" name="email" placeholder="Email Address" required="" type="email" value="">
+							</div>
+						</div>
+
+						<div class="row uniform 50%">
+							<div class="12u">
+								<input id="subject" name="_subject" placeholder="Subject" required="" type="text" value="">
+							</div>
+						</div>
+
+						<div class="row uniform 50%">
+							<div class="12u">
+								<textarea id="message" name="message" placeholder="Message" required="" rows="6"></textarea>
+							</div>
+						</div>
+						<input name="_gotcha" style="display:none" type="text"> <input name="_next" type="hidden" value="https://www.rinconroad.com/contact-us/thank-you/">
+						<div class="row uniform">
+							<div class="12u">
+								<ul class="actions align-center">
+									<li>
+										<input class="button special" type="submit" value="Send Message">
+									</li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
 			<!-- Footer -->
+
 			<footer id="footer">
 				<ul class="icons">
 					<li>
-						<a class="icon fa-facebook" href=
-						"https://facebook.com/rinconroad"><span class="label">Facebook</span></a>
+						<a class="icon fa-facebook" href="https://facebook.com/rinconroad"><span class="label">Facebook</span></a>
 					</li>
 
 					<li>
-						<a class="icon fa-twitter" href=
-						"https://twitter.com/rinconroad"><span class="label">Twitter</span></a>
+						<a class="icon fa-twitter" href="https://twitter.com/rinconroad"><span class="label">Twitter</span></a>
 					</li>
 
 					<li>
-						<a class="icon fa-instagram" href=
-						"https://instagram.com/rinconroadphoto"><span class=
-						"label">Instagram</span></a>
+						<a class="icon fa-instagram" href="https://instagram.com/rinconroadphoto"><span class="label">Instagram</span></a>
 					</li>
 
 					<li>
-						<a class="icon fa-comments drift-open-chat" href="#"><span class=
-						"label">Live Chat</span></a>
+						<a class="icon fa-comments drift-open-chat" href="#"><span class="label">Live Chat</span></a>
 					</li>
 				</ul>
 
@@ -145,93 +148,95 @@
 					</li>
 				</ul>
 			</footer>
-
 		</div>
-
 		<!-- Scripts -->
-			<script src="https://www.rinconroad.com/assets/js/jquery.min.js"></script>
-			<script src="https://www.rinconroad.com/assets/js/jquery.dropotron.min.js"></script>
-			<script src="https://www.rinconroad.com/assets/js/jquery.scrollgress.min.js"></script>
-			<script src="https://www.rinconroad.com/assets/js/skel.min.js"></script>
-			<script src="https://www.rinconroad.com/assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="https://www.rinconroad.com/assets/js/main.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/webshim/1.16.0/dev/polyfiller.js"></script>
+		<script src="https://www.rinconroad.com/assets/js/jquery.min.js">
+		</script>
+		<script src="https://www.rinconroad.com/assets/js/jquery.dropotron.min.js">
+		</script>
+		<script src="https://www.rinconroad.com/assets/js/jquery.scrollgress.min.js">
+		</script>
+		<script src="https://www.rinconroad.com/assets/js/skel.min.js">
+		</script>
+		<script src="https://www.rinconroad.com/assets/js/util.js">
+		</script> <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 
-			<!-- Start of Async Drift Code -->
+		<script src="https://www.rinconroad.com/assets/js/main.js">
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/webshim/1.16.0/dev/polyfiller.js">
+		</script> <!-- Start of Async Drift Code -->
 
-		 <script>
-			 !function() {
-				var t;
-				if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
-				t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-				t.factory = function(e) {
-					return function() {
-						var n;
-						return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-					};
-				}, t.methods.forEach(function(e) {
-					t[e] = t.factory(e);
-				}), t.load = function(t) {
-					var e, n, o, i;
-					e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
-					o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
-					n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-				});
-			 }();
-			 drift.SNIPPET_VERSION = '0.3.1';
-			 drift.load('mrmgekwk3g59');
+		<script>
+		           !function() {
+		              var t;
+		              if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+		              t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+		              t.factory = function(e) {
+		                  return function() {
+		                      var n;
+		                      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+		                  };
+		              }, t.methods.forEach(function(e) {
+		                  t[e] = t.factory(e);
+		              }), t.load = function(t) {
+		                  var e, n, o, i;
+		                  e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+		                  o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+		                  n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+		              });
+		           }();
+		           drift.SNIPPET_VERSION = '0.3.1';
+		           drift.load('mrmgekwk3g59');
 
-			 (function() {
-					/* Add this class to any elements you want to use to open Drift.
-					 *
-					 * Examples:
-					 * - <a class="drift-open-chat">Questions? We're here to help!<\/a>
-					 * - <button class="drift-open-chat">Chat now!<\/button>
-					 *
-					 * You can have any additional classes on those elements that you
-					 * would ilke.
-					 */
-					var DRIFT_CHAT_SELECTOR = '.drift-open-chat'
-					/* http://youmightnotneedjquery.com/#ready */
-					function ready(fn) {
-							if (document.readyState != 'loading') {
-									fn();
-							} else if (document.addEventListener) {
-									document.addEventListener('DOMContentLoaded', fn);
-							} else {
-									document.attachEvent('onreadystatechange', function() {
-											if (document.readyState != 'loading')
-													fn();
-									});
-							}
-					}
-					/* http://youmightnotneedjquery.com/#each */
-					function forEachElement(selector, fn) {
-							var elements = document.querySelectorAll(selector);
-							for (var i = 0; i < elements.length; i++)
-									fn(elements[i], i);
-					}
-					function openSidebar(driftApi, event) {
-							event.preventDefault();
-							driftApi.sidebar.open();
-							return false;
-					}
-					ready(function() {
-							drift.on('ready', function(api) {
-									var handleClick = openSidebar.bind(this, api)
-									forEachElement(DRIFT_CHAT_SELECTOR, function(el) {
-											el.addEventListener('click', handleClick);
-									});
-							});
-					});
-			 })();
+		           (function() {
+		                  /* Add this class to any elements you want to use to open Drift.
+		                   *
+		                   * Examples:
+		                   * - <a class="drift-open-chat">Questions? We're here to help!<\/a>
+		                   * - <button class="drift-open-chat">Chat now!<\/button>
+		                   *
+		                   * You can have any additional classes on those elements that you
+		                   * would ilke.
+		                   */
+		                  var DRIFT_CHAT_SELECTOR = '.drift-open-chat'
+		                  /* http://youmightnotneedjquery.com/#ready */
+		                  function ready(fn) {
+		                          if (document.readyState != 'loading') {
+		                                  fn();
+		                          } else if (document.addEventListener) {
+		                                  document.addEventListener('DOMContentLoaded', fn);
+		                          } else {
+		                                  document.attachEvent('onreadystatechange', function() {
+		                                          if (document.readyState != 'loading')
+		                                                  fn();
+		                                  });
+		                          }
+		                  }
+		                  /* http://youmightnotneedjquery.com/#each */
+		                  function forEachElement(selector, fn) {
+		                          var elements = document.querySelectorAll(selector);
+		                          for (var i = 0; i < elements.length; i++)
+		                                  fn(elements[i], i);
+		                  }
+		                  function openSidebar(driftApi, event) {
+		                          event.preventDefault();
+		                          driftApi.sidebar.open();
+		                          return false;
+		                  }
+		                  ready(function() {
+		                          drift.on('ready', function(api) {
+		                                  var handleClick = openSidebar.bind(this, api)
+		                                  forEachElement(DRIFT_CHAT_SELECTOR, function(el) {
+		                                          el.addEventListener('click', handleClick);
+		                                  });
+		                          });
+		                  });
+		           })();
 
-webshim.activeLang('en');
-webshims.polyfill('forms');
-webshims.cfg.no$Switch = true;
+		webshim.activeLang('en');
+		webshims.polyfill('forms');
+		webshims.cfg.no$Switch = true;
 
-		 </script> <!-- End of Async Drift Code -->
-
+		</script> <!-- End of Async Drift Code -->
 	</body>
 </html>
