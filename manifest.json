@@ -1,6 +1,5 @@
 {
     "name": "Rincon Road",
-    "short_name": "Rincon Road",
     "icons": [
         {
             "src": "/android-chrome-192x192.png?v=pgrvAeyYX3",
@@ -15,9 +14,5 @@
     ],
     "theme_color": "#0058a5",
     "background_color": "#0058a5",
-    "display": "standalone",
-    "start_url": "/",
-    "gcm_sender_id": "482941778795",
-    "DO_NOT_CHANGE_GCM_SENDER_ID": "Do not change the GCM Sender ID"
-
+    "display": "standalone"
 }
